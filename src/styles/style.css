@@ -1,7 +1,68 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
-
-  color: #fff;
+@font-face {
+  font-weight: normal;
+  font-family: Neucha;
+  font-style: normal;
+  src:
+    local("Neucha"),
+    url("../fonts/Neucha.woff2") format("woff2"),
+    url("../fonts/Neucha.woff") format("woff");
+  font-display: swap;
 }
+
+@font-face {
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-style: normal;
+  src:
+    local("Open Sans Regular"),
+    local("OpenSans-Regular"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/Neucha.woff") format("woff");
+  font-display: swap;
+}
+
+/**  ОБЩИЕ СТИЛИ  **/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  max-width: 1110px;
+  padding: 100px 0;
+
+  text-align: center;
+}
+
+/** **/
