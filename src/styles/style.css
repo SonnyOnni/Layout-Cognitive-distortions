@@ -161,3 +161,34 @@ footer {
 
   background: #fe8a02;
 }
+
+/**  VIDEO  **/
+
+.video-section {
+  height: 814px;
+}
+
+.video-wrapper {
+  text-align: center;
+}
+
+.description-video {
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.video {
+  z-index: 1;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+/**  Navigation  **/
+
+.navigation-section {
+  z-index: -1;
+
+  height: 991px;
+
+  background-color: #42413c;
+}
