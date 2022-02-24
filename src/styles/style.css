@@ -255,3 +255,103 @@ a {
 .element-title {
   margin: 0;
 }
+
+/** IKEA **/
+
+.background-image-ikea-effect {
+  position: relative;
+}
+
+.background-image-ikea-effect::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 1440px;
+  height: 914px;
+
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: " ";
+}
+
+#ikea-effect {
+
+  margin-left: 165px;
+
+  columns: 540px 2;
+  column-gap: 30px;
+}
+
+.ikea-image {
+  margin-bottom: 100px;
+}
+
+.ikea-image-file {
+  margin-bottom: 100px;
+
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.ikea-full-description {
+  padding-left: 38px;
+}
+
+.subtitle {
+
+  margin-bottom: 0;
+
+  color: #908d8b;
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+}
+
+.ikea-title {
+  margin: 0;
+}
+
+.ikea-main-description {
+
+  margin-top: 30px;
+
+  color: #2a2626;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  line-height: 41px;
+}
+
+.ikea-details {
+  height: 26px;
+  margin-bottom: 20px;
+
+  column-span: all;
+
+  background-color: #b09a81;
+}
+
+.title-ikea-details {
+
+  margin-top: 0;
+  padding: 5px 10px;
+
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.ikea-details-item {
+  height: 125px;
+
+  color: #2a2626;
+}
+
+.ikea-details-item-one {
+  margin-top: 0;
+}
