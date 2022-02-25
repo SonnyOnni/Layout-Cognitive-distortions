@@ -30,7 +30,6 @@
 }
 
 body {
-
   margin: 0;
 
   color: #2a2626;
@@ -62,11 +61,16 @@ h3 {
   font-size: 34px;
 }
 
-section,
 header,
 footer {
   max-width: 1900px;
   height: 914px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section {
+  max-width: 1900px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -89,6 +93,11 @@ a {
 /**  HEADER  **/
 
 .background-light {
+
+  position: relative;
+
+  overflow: hidden;
+
   background-color: #f5f4f0;
 }
 
@@ -97,8 +106,8 @@ a {
   top: 0;
   left: 0;
 
-  width: 1440px;
-  height: 914px;
+  width: 100%;
+  height: 100%;
 
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -260,6 +269,8 @@ a {
 
 .background-image-ikea-effect {
   position: relative;
+
+  height: 914px;
 }
 
 .background-image-ikea-effect::before {
@@ -267,8 +278,8 @@ a {
   top: 0;
   left: 0;
 
-  width: 1440px;
-  height: 914px;
+  width: 100%;
+  height: 100%;
 
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -278,16 +289,9 @@ a {
   content: " ";
 }
 
-#ikea-effect {
-
-  margin-left: 165px;
-
+.wrapper-columns {
   columns: 540px 2;
   column-gap: 30px;
-}
-
-.ikea-image {
-  margin-bottom: 100px;
 }
 
 .ikea-image-file {
@@ -354,4 +358,67 @@ a {
 
 .ikea-details-item-one {
   margin-top: 0;
+}
+
+/**  premature-optimization  **/
+
+#premature-optimization {
+  position: relative;
+
+  min-height: 855px;
+  overflow: visible;
+
+  background-color: #b09a81;
+}
+
+#premature-optimization::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: " ";
+}
+
+.optimization-full-description {
+  width: 502px;
+  margin-top: -25px;
+  margin-left: 7px;
+}
+
+.optimization-image {
+  margin-left: -37px;
+}
+
+.optimization-image-file {
+  width: 578px;
+  height: 434px;
+  margin-bottom: 100px;
+
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.optimization-subtitle {
+  color: #d7ccc0;
+}
+
+.optimization-description {
+  color: #fff;
+}
+
+.optimization-white {
+  background-color: #fff;
+}
+
+.optimization-white-text {
+  color: #b09a81;
 }
