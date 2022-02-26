@@ -73,6 +73,8 @@ footer {
   max-width: 1900px;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  background-color: white;
 }
 
 section {
@@ -458,3 +460,115 @@ a {
 }
 
 /** errors-in-planning **/
+
+/** FOOTER **/
+
+.know-more-form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-right: 55px;
+  padding-left: 55px;
+
+  background-color: #42413c;
+}
+
+.footer-title {
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+  color: white;
+  font-size: 34px;
+}
+
+form {
+  padding-top: 38px;
+  padding-bottom: 40px;
+}
+
+.title-input-mail {
+  color: white;
+  font-size: 18px;
+}
+
+input {
+  width: 423px;
+  height: 50px;
+  margin-top: 9px;
+  padding: 15px;
+
+  border: 1px solid #e3e3e3;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+
+  opacity: 0.2;
+}
+
+.mail-btn {
+
+  position: relative;
+  top: -4px;
+
+  width: 70px;
+  height: 50px;
+  margin-left: -10px;
+
+  background-color: #fe8a02;
+  border: none;
+  cursor: pointer;
+}
+
+.mail-btn::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 25px;
+  height: 25px;
+  margin: auto;
+
+  background-image: url("../img/send.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.notice-input-mail {
+  margin: 0;
+
+  color: white;
+  font-size: 12px;
+}
+
+.service-rules {
+  display: inline;
+
+  color: white;
+
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.contact-info {
+  padding-top: 60px;
+
+  text-align: center;
+}
+
+.info-detail {
+  font-size: 14px;
+}
+
+.biases-link {
+  display: inline;
+}
+
+.blue-link {
+  color: #1085c5;
+  text-decoration: underline;
+}

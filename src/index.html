@@ -42,34 +42,34 @@
                     <h2 class="navigation-title title-orange">5 когнитивных искажений</h2>
                     <h2 class="title-white navigation-title">о существовании которых стоит помнить</h2>
                 </div>
-                <a href="#" class="element">
+                <a href="#ikea-effect" class="element">
                     <h2 class="number">1</h2>
                     <h3 class="element-title title-orange">Эффект ИКЕА</h3>
                     <p class="navigation-description">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
-                <a href="#" class="element">
+                <a href="#premature-optimization" class="element">
                     <h2 class="number">2</h2>
                     <h3 class="element-title title-orange">Преждевременная оптимизация</h3>
                     <p class="navigation-description">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
-                <a href="#" class="element long-element">
+                <a href="#distortion-of-novelty" class="element long-element">
                     <h2 class="number">3</h2>
                     <h3 class="element-title title-orange">Искажение новизны</h3>
                     <p class="navigation-description">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
-                <a href="#" class="element long-element">
+                <a href="#hyperbolic-depreciation" class="element long-element">
                     <h2 class="number">4</h2>
                     <h3 class="element-title title-orange">Гиперболическое обесценивание</h3>
                     <p class="navigation-description">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
-                <a href="#" class="element long-element">
+                <a href="#errors-in-planning" class="element long-element">
                     <h2 class="number">5</h2>
                     <h3 class="element-title title-orange">Ошибка планирования</h3>
                     <p class="navigation-description">Неправильно рассчитывать время необходимое для завершения задачи.</p>
                 </a>
             </div>
         </section>
-        <section class="background-light background-image-ikea-effect" id="ikea-effect">
+        <section class="background-light background-image-ikea-effect" id="ikea-effect" name="ikea-effect">
             <div class="wrapper wrapper-columns">
                 <div class="ikea-image">
                     <img src="img/1.png" alt="Люди не понимают. что происходит" class="ikea-image-file">
@@ -86,7 +86,7 @@
                 <p class="ikea-details-item">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
             </div>
         </section>
-        <section id="premature-optimization">
+        <section id="premature-optimization" name="premature-optimization">
             <div class="wrapper wrapper-columns">
                 <div class="optimization-full-description">
                     <p class="subtitle optimization-subtitle">Когнитивные искажения</p>
@@ -103,7 +103,7 @@
                 <p class="ikea-details-item optimization-description">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
             </div>
         </section>
-        <section class="background-light background-image-ikea-effect" id="distortion-of-novelty">
+        <section class="background-light background-image-ikea-effect" id="distortion-of-novelty" name="distortion-of-novelty">
             <div class="wrapper wrapper-columns">
                 <div class="ikea-image">
                     <img src="img/3.png" alt="У девушки появилась идея" class="ikea-image-file">
@@ -120,7 +120,7 @@
                 <p class="ikea-details-item">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
             </div>
         </section>
-        <section id="hyperbolic-depreciation">
+        <section id="hyperbolic-depreciation" name="hyperbolic-depreciation">
             <div class="wrapper wrapper-columns">
                 <div class="optimization-full-description">
                     <p class="subtitle optimization-subtitle">Когнитивные искажения</p>
@@ -137,7 +137,7 @@
                 <p class="ikea-details-item optimization-description">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
             </div>
         </section>
-        <section class="background-light background-image-ikea-effect" id="errors-in-planning">
+        <section class="background-light background-image-ikea-effect" id="errors-in-planning" name="errors-in-planning">
             <div class="wrapper wrapper-columns">
                 <div class="ikea-image">
                     <img src="img/5.png" alt="У девушки появилась идея" class="ikea-image-file">
@@ -158,6 +158,24 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="wrapper">
+            <div class="know-more-form">
+                <h3 class="footer-title">Хотите узнать больше? <br> Подпишитесь на обновления</h3>
+                <form action="#">
+                    <label class="title-input-mail" for="mail">Электронная почта</label> 
+                    <br>
+                    <input id="mail" type="email" placeholder="Ваша электронная почта">
+                    <button type="submit" class="mail-btn"></button>
+                    <p class="notice-input-mail">Подписываясь, вы принимаете <a href="#" class="service-rules">правила сервиса</a></p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p class="info-detail">© 2020 Константин Константинопольский</p>
+                <p class="info-detail">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="biases-link blue-link">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <a href="https://ru.hexlet.io/my" class="blue-link info-detail">Курсы программирования Hexlet</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
