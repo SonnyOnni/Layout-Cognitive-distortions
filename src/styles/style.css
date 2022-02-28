@@ -176,6 +176,7 @@ a {
 }
 
 .description-video {
+  height: 26px;
   margin-top: 27px;
   margin-bottom: 30px;
 }
