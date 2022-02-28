@@ -89,6 +89,7 @@ a {
 
 .background-light {
   position: relative;
+
   overflow: hidden;
 }
 
@@ -171,6 +172,7 @@ a {
 
 .video-section {
   height: 790px;
+
   text-align: center;
 
   background-color: white;
