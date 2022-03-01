@@ -336,7 +336,7 @@ a {
 #premature-optimization {
   position: relative;
 
-  height: 855px;
+  min-height: 855px;
   overflow: visible;
 
   background-color: #b09a81;
@@ -382,6 +382,8 @@ a {
 }
 
 .optimization-description {
+  height: 70px;
+
   color: #fff;
 }
 
