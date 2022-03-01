@@ -1,7 +1,1 @@
 /node_modules/
-/.github/workflows
-.editorconfig
-.htmlhintrc
-.stylelintrc
-.surgeignore
-Makefile
