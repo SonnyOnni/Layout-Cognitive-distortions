@@ -56,6 +56,8 @@ h1 {
 }
 
 h2 {
+
+  color: #fe8a02;
   font-size: 60px;
 }
 
@@ -212,6 +214,16 @@ a {
   margin-bottom: 20px;
 }
 
+.number {
+  margin: 0;
+  padding-bottom: 40px;
+
+  color: #42413c;
+
+  font-size: 64px;
+  line-height: 1;
+}
+
 .element {
   padding: 24px;
 
@@ -222,6 +234,10 @@ a {
   color: white;
 
   background-color: #fe8a02;
+}
+
+.element:hover h2 {
+  color: white;
 }
 
 .element:hover h3 {
@@ -248,14 +264,6 @@ a {
   margin: 0;
 
   color: white;
-}
-
-.number {
-  margin: 0;
-  padding-bottom: 40px;
-
-  font-size: 64px;
-  line-height: 1;
 }
 
 .element-title {
@@ -381,18 +389,25 @@ a {
   color: #d7ccc0;
 }
 
-.optimization-description {
-  height: 70px;
-
-  color: #fff;
-}
-
 .optimization-white {
   background-color: #fff;
 }
 
 .optimization-white-text {
   color: #b09a81;
+}
+
+.optimization-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.optimization-description {
+  height: 100%;
+  margin: 0;
+
+  color: #fff;
 }
 
 /** distortion-of-novelty **/
