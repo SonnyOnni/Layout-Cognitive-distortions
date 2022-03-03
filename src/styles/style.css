@@ -182,6 +182,8 @@ a {
 .video-title {
   margin-top: 5px;
   margin-bottom: 0;
+
+  color: #2A2626;
 }
 
 .description-video {
@@ -206,7 +208,7 @@ a {
   background-color: #42413c;
 }
 
-#navigation {
+.navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
