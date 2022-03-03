@@ -1,4 +1,6 @@
 /node_modules/
+/.github/README.md
+/.github/htmlcss.yml
 .editorconfig
 .htmlhintrc
 .stylelintrc
