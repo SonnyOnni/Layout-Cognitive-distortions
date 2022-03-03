@@ -183,7 +183,7 @@ a {
   margin-top: 5px;
   margin-bottom: 0;
 
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .description-video {
@@ -553,8 +553,9 @@ input::placeholder {
 }
 
 .info-detail {
-  font-size: 14px;
   margin-bottom: 16px;
+
+  font-size: 14px;
 }
 
 .biases-link {
