@@ -1,6 +1,5 @@
 /node_modules/
 /.github/workflows/README.md
-/.github/workflows/htmlcss.yml
 .editorconfig
 .htmlhintrc
 .stylelintrc
